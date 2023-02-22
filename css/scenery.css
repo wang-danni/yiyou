@@ -1,0 +1,266 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+.view{
+    width:100%;
+    height:50px;
+    text-align:center;
+    /*line-height:85px;设置行高*/
+    color:#4a7ca0;
+    margin-bottom:20px;
+    margin-top:120px;
+}
+.view1 {
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    color: #4a7ca0;
+    margin-bottom:40px;
+}
+.continer1 {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+.top3 {
+    width:100%;
+    /*height:1000px;*/
+    text-align: center;
+    margin-left:100px;
+    margin:0px auto;
+}
+    .top3 > .layout {
+        margin-top: 10px;
+        margin-left:50px;
+        width: 100%;
+        /*height: 1000px;*/
+        margin: 0px auto;
+        /*background-color: blue;*/
+    }
+        .top3 > .layout > .first {
+            width: 100%;
+            height: 450px;
+            margin-left: 50px;
+            display: flex;
+        }
+        .top3 > .layout > .first > .item {
+            width: 30%;
+            height: 400px;
+           
+           margin-right:20px;
+            /*background-color:pink;*/
+        }
+        .top3 > .layout >.first> .item >a>img {
+            width: 100%;
+            height: 230px;
+            
+        }
+ a {
+               text-decoration:none;             
+            }
+
+.char {
+    text-align: center;
+    font-size: 27px;
+    font-family: "Microsoft JhengHei";
+}
+.content {
+    text-align: left;
+    font-size: 20px;
+    font-family: "Microsoft JhengHei";
+    /*display:none;
+    line-height: 10px; 行高*/
+    width: 385px;
+}
+/*top3 > .layout > .first > .item :hover .content {
+    display: block;
+}*/
+.top3 > .layout {
+    position: relative;
+    transform-style: preserve-3d; /*设置3D变化*/
+    perspective: 900px; /*添加透视效果*/
+}
+.top3 > .layout > .first > .item {
+    transform: rotateY(0deg);
+    transition-delay: 0.1s;
+    /*圆角*/
+    border-radius: 5px;
+    /*边框*/
+    border: #acd6f5 5px solid;
+}
+    .top3 > .layout:hover .first > .item {
+        transform: rotateY(40deg);
+    }
+
+/*当鼠标悬浮当前卡片上时，当前卡片的翻转角度为0，并放大1.25倍，加个阴影*/
+.top3 > .layout .first .item:hover {
+    transform: rotateY(0deg) scale(1.25);
+    box-shadow: 0 25px 40px #808080;
+}
+/*当鼠标悬浮在卡片上的时候，当前卡片后面的所有卡片会翻转-20度*/
+.top3 > .layout.first.item:hover~.item{
+   transform:rotateY(-20deg);
+}
+    .top3 > .layout > .ljgd {
+        float: right;
+        font-size: 20px;
+
+
+    }
+footer {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    height: 60px;
+    line-height: 60px;
+    margin-top:40px;
+}
+
+
+
+
+
+
+/*酒店住宿*/
+.jd{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    /*line-height:85px;设置行高*/
+    color: #4a7ca0;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+.jd1 {
+    width: 100%;
+    height: 10px;
+    text-align: center;
+    color: #4a7ca0;
+    margin-bottom: 40px;
+}
+#banner {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1200px;
+    height: 300px;
+    margin-top:250px;
+    /*margin-top: calc(50vh - 250px);*/
+    cursor: pointer;
+}
+
+    #banner li {
+        float: left;
+        position: absolute;
+        left: 0px;
+        transition-duration: 0.4s;
+    }
+
+    #banner div {
+        width: 50px;
+        height: 5px;
+        border: 1px solid rgb(156, 156, 156);
+        bottom: -80px;
+        position: absolute;
+        background-color: white;
+    }
+
+    #banner .cur_img {
+        width: 600px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    #banner .img_Public {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 100;
+    }
+
+    #banner .left {
+        left: 0;
+    }
+
+    #banner .right {
+        right: 0;
+    }
+		
+    .jieshao{
+        
+        width:1200px;
+        height:1230px;
+        margin:0 auto;
+        margin-top:550px;
+    }
+   
+        .jieshao > h1 > span{
+            width: 280px;
+            height: 28px;
+            float: right;
+        }
+        .jieshao > h1 > span > .search {
+            width: 200px;
+            height: 28px;  
+        }
+        .jieshao >h1>span>.btn {
+            width: 60px;
+            height: 30px;
+            background-color:#acd6f5;
+            
+        }
+        .jieshao > h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #4a7ca0;
+        }
+        .jieshao > .jiudian {
+            background-color: #ffffff;
+            height:250px;
+            margin-bottom:30px;
+            
+        }
+#image1 {
+    width: 400px;
+    height: 250px;
+    float: left;
+}
+  
+#name1 {
+    font-size: 30px;
+    text-align: center;
+}
+#brief1 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#image2 {
+    width: 400px;
+    height: 250px;
+    float: right;
+}
+#name2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#brief2 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.jieshao>.more{
+    float:right;
+    font-size:20px;
+}

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>注册页面</title>
+    <style type="text/css">
+        body {
+            background-image: url('img/background.jpg');
+            background-size: cover;
+        }
+        div {
+            display: inline-block;
+            padding-top: 130px;
+            padding-left: 1px;
+            padding-right: 1px;
+        }
+        h3 {
+            font-family: "微软雅黑";
+            font-size: 30px;
+            color: black;
+        }
+        p {
+            font-size: 23px;
+        }
+        #TxtUser, #TxtPwd, #TxtPho, #TxtEml {
+            width:300px;
+            height: 20px;
+        }
+        #Button1 {
+            margin-left: 150px;
+            float: left;
+            width: 110px;
+            font-style: normal;
+            font-weight: bold;
+            color: #fff;
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            background: #5cd1cf;
+            text-align: center;
+        }
+
+            #Button1 hover {
+                background: #4CAF50;
+            }
+        </style>
+</head>
+    <body>
+        <form>
+		    <center>
+            <div>
+            <h3>
+            注册
+			</h3>
+			<p>
+				用户名：<input id="TxtUser" type="text" />
+			</p>
+			<p>
+				密&emsp;码：<input id="TxtPwd" type="text" />
+			</p>
+			<p>
+				手机号：<input id="TxtPho" type="text" />
+			</p>
+            <p>
+				邮&emsp;箱：<input id="TxtEml" type="text" />
+			</p>
+			<p>
+				&nbsp;<a id="Button1" href="login.html" data-is-nav-btn="false" data-type="Section" data-component="button" target="_self">立即注册</a></p>
+			<p>
+				已有账号？<a href="login.html">请登录</a>
+			</p>   
+            </div>
+            </center>			
+        </form>      
+    </body>
+</html>

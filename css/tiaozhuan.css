@@ -1,0 +1,89 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+}
+
+#navMenu1 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #5bd1d0;
+}
+#navMenu1 ul{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#navMenu1 ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+#navMenu1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}#navMenu1 ul li a:hover{
+    color: rgb(230, 142, 47);
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    color: #5bd1d0;
+    width: 100%;
+    height: 100%;
+}
+h1 p{
+	bor
+}
+#logo {
+    line-height: 80px;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: bold;
+}
+#shundefood{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    padding-top: 150px;
+    padding-bottom: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header{
+    background: #000;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    color:#fff;
+}
+main{ /* main的padding-bottom值要等于或大于footer的height值 */
+    background:#ccc;
+    text-align: center;
+}
+footer{
+    position:absolute;
+    color: #000;
+    bottom:0;
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    text-align:center;
+    font-size: 12px;
+     background-color: #fff;
+}

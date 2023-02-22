@@ -1,0 +1,122 @@
+﻿.body3 {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 104px;
+}
+#content
+
+{
+    padding-top: 20px;
+    padding-bottom: 36px;
+    margin-left: 250px;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden
+}
+
+#ContactForm {
+    margin-top: -4px;
+    padding-left: 10px;
+}
+
+    #ContactForm span {
+        width: 109px;
+        float: left;
+        line-height: 26px
+    }
+
+    #ContactForm .wrapper {
+        min-height: 30px
+    }
+
+    #ContactForm .textarea_box {
+        min-height: 275px;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 6px
+    }
+
+#ContactForm {
+}
+
+#ContactForm {
+}
+
+    #ContactForm a {
+        margin-left: 150px;
+        float: left;
+        width: 62px;
+        font-style: normal;
+        font-weight: bold;
+        color: #fff;
+        height: 32px;
+        line-height: 32px;
+        text-decoration: none;
+        background: #5cd1cf;
+        text-align: center
+    }
+
+        #ContactForm a:hover {
+            background: #4CAF50;
+        }
+
+    #ContactForm .input {
+        width: 269px;
+        height: 18px;
+        border: 1px solid #e5e5e5;
+        background: #fff;
+        padding: 3px 5px;
+        color: #696968;
+        font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: 0
+    }
+
+    #ContactForm textarea {
+        overflow: auto;
+        width: 549px;
+        height: 258px;
+        border: 1px solid #e5e5e5;
+        background: #fff;
+        padding: 3px 5px;
+        color: #696968;
+        font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin: 0
+    }
+
+h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding: 38px 0 11px 0;
+    color: #000;
+    letter-spacing: -1px
+}
+
+    h2.under {
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 25px;
+    }
+
+#address span {
+    float: left;
+    width: 80px
+}
+
+.color2 {
+    color: #60b000
+}
+
+.pad_left1 {
+    padding-left: 10px;
+}
+
+.col1 {
+    width: 670px;
+    float: left;
+}
